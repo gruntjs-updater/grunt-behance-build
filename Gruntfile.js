@@ -14,10 +14,7 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     options: {
-      buildDir: 'public/assets-built',
-      tasksDir: 'tasks',
-      junitFile: grunt.option('junitFile') || 'test/jasmine/report.xml',
-      coverageDir: grunt.option('coverageDir') || 'test/jasmine/coverage'
+      buildDir: grunt.options('buildDir') || 'public/assets-built',
     },
 
     clean: {
