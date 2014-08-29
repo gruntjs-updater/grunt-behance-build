@@ -27,6 +27,7 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "grunt-be-ugly": "1.0.1",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-requirejs": "0.4.1"
   },
