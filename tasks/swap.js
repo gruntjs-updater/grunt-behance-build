@@ -12,7 +12,7 @@ module.exports = function(grunt) {
   });
 
   grunt.registerTask('swap', 'Swap assets directories', function() {
-    var built = grunt.config('options.buildDir');
+    var built = grunt.config('options.uglyDir');
 
     if (!file.isDir('public/assets-raw')) {
       fs.renameSync('public/assets', 'public/assets-raw');

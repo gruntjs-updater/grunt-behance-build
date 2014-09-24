@@ -1,4 +1,4 @@
 module.exports = function(grunt) {
-  grunt.registerTask('build', ['clean', 'unswap', 'copy', 'be_ugly', 'requirejs:build', 'swap']);
+  grunt.registerTask('build', ['clean', 'unswap', 'copy:all', 'be_ugly', 'requirejs:build', 'copy:built', 'swap']);
 };
 
