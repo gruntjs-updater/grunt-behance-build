@@ -1,7 +1,7 @@
 {
   "name": "grunt-behance-build",
   "description": "Behance build tasks meta plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/behance/grunt-behance-build",
   "author": {
     "name": "Behance Javascript",
